@@ -96,6 +96,8 @@ body {
 
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .link:hover, .link:focus {
@@ -136,6 +138,8 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-item:hover, .nav-item:focus {
@@ -217,6 +221,7 @@ ul {
     cursor: pointer;
 
     border-radius: 4px;
+    border: none;
     margin-left: auto;
     margin-right: auto;  
     padding: 10px 32px;
@@ -480,6 +485,8 @@ ul {
     height: 44px;
     border-radius: 50%;
     color:#AFB1B8;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-team {
@@ -497,6 +504,8 @@ ul {
 
 .svg-clients {
     fill: currentColor;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -579,6 +588,8 @@ ul {
     line-height: 1.7;
     text-decoration: none;
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
 .contacts:hover, .contacts:focus {
@@ -626,6 +637,8 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -702,6 +715,8 @@ ul {
     padding: 0;
     padding: 6px 22px;
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -717,6 +732,10 @@ ul {
 
 .logo-portfolio {
     text-decoration: none;
+}
+
+.shadow-portfolio {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shadow-portfolio:hover,
@@ -746,6 +765,7 @@ ul {
     color: #FFFFFF;
 
 }
+
 
 .logo-portfolio:hover .description-text {
     transform: translateY(0);
